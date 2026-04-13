@@ -62,6 +62,12 @@ export function BrewerySection() {
               Deutschland ist das Land des Bieres. Mit uber 1.300 Brauereien und mehr als 5.000 verschiedenen Biersorten ist die deutsche Braukultur einzigartig auf der Welt und seit 2016 zum UNESCO-Kulturerbe erhoben.
             </p>
             <p className="text-muted-foreground leading-relaxed">
+              Bier entsteht, wenn Malzzucker vergoren wird: Hefe verwandelt ihn in Alkohol und Kohlensaure, Hopfen
+              gibt Bittere und Aroma, das Wasser pragt den weichen Mundgefuhl. Untergaerige Lagerbiere und
+              obergaerige Spezialitaeten wie Weizen oder Kolsch ergeben ein weites Spektrum an Farben, Aromen und
+              Geschmack, das weit unter der Starke von Spirituosen bleibt.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
               Deutsche Gaststuben und Biergarten sind mehr als nur Orte zum Trinken. Sie sind Orte der Gemeinschaft, der Tradition und des Austauschs, wo Generationen zusammenkommen.
             </p>
             <p className="text-sm text-stone italic border-l-2 border-gold pl-4">

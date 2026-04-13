@@ -67,13 +67,18 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-muted-foreground tracking-wide">
+        <div className="mt-12 pt-8 border-t border-border flex flex-col gap-6">
+          <p className="text-xs text-muted-foreground tracking-wide text-center md:text-left">
             &copy; {new Date().getFullYear()} German Schnaps Culture. Alle Rechte vorbehalten.
           </p>
-          <p className="text-xs text-muted-foreground text-center">
-            Dieser Blog richtet sich ausschliesslich an Personen ab 18 Jahren. Alkohol verantwortungsvoll geniessen.
-          </p>
+          <div className="border border-gold/25 bg-muted/30 px-5 py-4">
+            <p className="text-xs text-muted-foreground leading-relaxed text-pretty text-center md:text-left">
+              <span className="text-gold font-semibold">18+ </span>
+              Dieser Inhalt richtet sich ausschliesslich an Personen ab 18 Jahren. Alkohol kann die Gesundheit
+              gefaehrden. Bitte trinken Sie verantwortungsbewusst und massvoll. Kein Alkohol wird auf dieser
+              Website verkauft oder beworben.
+            </p>
+          </div>
         </div>
       </div>
     </footer>

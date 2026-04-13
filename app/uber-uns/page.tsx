@@ -52,6 +52,19 @@ export default function UberUnsPage() {
                 Dieser Blog verfolgt ausschliesslich informativen und kulturellen Zweck. Wir sind Enthusiasten, die das handwerkliche Wissen der deutschen Destillationskunst erhalten und weitergeben mochten.
               </p>
 
+              <div className="border border-gold/30 bg-gold/5 p-6 mb-8">
+                <p className="text-xs tracking-widest uppercase text-gold mb-3">Verantwortung und Klarstellung</p>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  <span className="text-gold font-semibold">18+ </span>
+                  Dieser Inhalt richtet sich ausschliesslich an Personen ab 18 Jahren. Alkohol kann die Gesundheit
+                  gefaehrden. Bitte trinken Sie verantwortungsbewusst und massvoll.{' '}
+                  <strong className="font-medium text-foreground">
+                    Es wird kein Alkohol uber diese Website verkauft, bestellt oder beworben;
+                  </strong>{' '}
+                  wir stellen ausschliesslich redaktionelle Informationen zur deutschen Getrankkultur bereit.
+                </p>
+              </div>
+
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-8">
                 {[
                   { value: '2019', label: 'Gegrundet' },
@@ -82,6 +95,7 @@ export default function UberUnsPage() {
                     'Sachliche und fundierte Information uber Alkohol und Trinkkultur',
                     'Verantwortungsvoller Umgang mit dem Thema Alkohol',
                     'Keine Werbung fur ubermassigen Konsum',
+                    'Kein Verkauf von Alkohol und keine werbliche Alkoholbewerbung auf dieser Website',
                     'Ausschliesslich an Personen ab 18 Jahren gerichtet',
                     'Respekt vor regionalen Traditionen und Handwerkskunst',
                   ].map((item) => (

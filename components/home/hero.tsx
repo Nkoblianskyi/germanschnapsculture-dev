@@ -30,6 +30,12 @@ export function HomeHero() {
           <p className="text-lg text-muted-foreground leading-relaxed max-w-xl">
             Entdecken Sie die Welt der traditionellen deutschen Obstbrande. Destilliert aus frischen Fruchten, gereift in alten Brennereien, getrunken mit Bedacht.
           </p>
+          <p className="text-base text-muted-foreground leading-relaxed max-w-xl">
+            Daneben widmen wir uns dem deutschen Bier: ein mildes, unter geringem Druck vergorenes Getrank aus
+            Malz, Hopfen, Hefe und Wasser, das in zahlreichen regionalen Stilen gebraut wird. Von klassischen
+            Lager- und obergaerigen Spezialitaeten bis zu Brauereien und Gaststuben, in denen diese Kultur gelebt
+            wird, zeigen wir, wie Bier Deutschland praegt.
+          </p>
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4">
